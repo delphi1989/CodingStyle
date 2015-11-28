@@ -1,3 +1,10 @@
-# First Chapter
+# 一、簡介
+這份文件提供Google在Java原始碼上完整的編碼標準。一個Java的原始碼檔案只有在符合文件內敘述的編碼標準時，才可宣稱使用Google Style
 
-GitBook allows you to organize your book into chapters, each chapter is stored in a separate file like this one.
+#### **文件中的用詞**
+
+在原始文件中，除非有特別定義，否則：
+>>1. 'class'這的單字可以用來表示類別、介面、列舉
+
+
+
