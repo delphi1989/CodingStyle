@@ -161,7 +161,7 @@
 
 ```private Color color;``` // this too
 
-```private int   x;```     // permitted, but future edits
+```private int   x;```     // 主要是這行的變數x透過空白試圖與下方的變數color對其
 
 ```private Color color;```  // may leave it unaligned
 
