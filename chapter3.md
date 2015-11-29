@@ -39,4 +39,11 @@ import敘述不進行***line-wrapper***，也就是不換行的意思。字元�
 
 >3.3.3 排序與間隔 (Ordering and spacing)
 
-所有的import敘述會組合成不同的群組，群組間以空白行做為分隔。
+所有的import敘述會組合成不同的群組，群組間以一空白行做為分隔，依序為：
+
+1. 所有的```static``` import
+2. com.google開頭的 import
+3. 所有第三方資源的import，按照ASCII 順序
+4. ```java``` imports
+5. ```javax``` imports
+
