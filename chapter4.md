@@ -158,6 +158,7 @@
 
  // this is fine
 private int x;
+
  // this is fine
 private Color color; // this too
 
