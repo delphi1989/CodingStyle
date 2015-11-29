@@ -234,7 +234,9 @@
 
 >>4.8.4.2 Fall-through: 註解
 
-在每一個 switch 區塊內，每個敘述群組可能突然地中斷Switch流程（像是以關鍵字 ```break, continue,  return 或是throw an Exception``` ），或是由註解標記，程式可能將繼續進入下一個敘述群組執行。而用來標記這種行為的註解是必要的（通常像是 ```// fall through``` ）。而在最後一個switch小區塊則可不必有這樣的註解。如：
+在每一個 switch 區塊內，每個敘述群組可能突然地中斷Switch流程（像是以關鍵字 ```break, continue,  return 或是throw an Exception``` ），或是由註解標記，程式可能將繼續進入下一個敘述群組執行。而用來標記這種行為的註解是必要的（通常像是 ```// fall through``` ）。而在最後一個switch小區塊則可不必有這樣的註解。如： 
+
+
 
 
 
