@@ -48,3 +48,4 @@
 
 例如：
 
+```void doNothing() {}```
