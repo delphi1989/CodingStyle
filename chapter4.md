@@ -162,6 +162,7 @@
 ```private Color color;``` // this too
 
 ```private int   x;```      // permitted, but future edits
+
 ```private Color color;```  // may leave it unaligned
 
 
