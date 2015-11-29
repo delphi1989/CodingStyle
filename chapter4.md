@@ -180,7 +180,7 @@
 
 >4.8.2 變數宣告(Variable declarations)
 
->>4.8.2.1 一次只宣告一個變數
+>>4.8.2.1 一次只宣告一個變數(Variable declarations)
 
 
 
