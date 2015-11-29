@@ -64,8 +64,9 @@
 
 1. 可預期無法遵守限制的程式碼，如在Javadoc中一段較長的URL，或是較長的JavaScript Native Interface參照（把一個 Java method 宣告成「native」然後用另一個語言來實做內容。
 ）
-package或import敘述
-- 在註解中可能被用來複製貼上到shell的命令行指令(command line)
+1. package或import敘述
+1. 在註解中可能被用來複製貼上到shell的命令行指令(command line)
+
 
 
 
