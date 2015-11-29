@@ -44,13 +44,12 @@
 
 例如：
 
-|sd|sdad|
+|```String unitAbbrev = "μs";```|**最佳**，最易理解、甚至無須加上註解|
 | -- | -- |
-| 0:2 | 1:2 |
-| 0:3 | 1:3 |
-| 0:4 | 1:4 |
+| ```String unitAbbrev = "\u03bcs";``` // "μs" | **可接受** |
+| ```String unitAbbrev = "\u03bcs";``` // Greek letter mu, "s" | **可接受**，但可能出錯 |
+| ```String unitAbbrev = "\u03bcs";``` | **不佳**，讀者無法理解 |
 | 0:5 | 1:5 |
-
 
 
 
