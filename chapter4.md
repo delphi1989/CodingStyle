@@ -161,8 +161,7 @@
 
 ```private Color color;``` // this too
 
-1. private int   x;
-      // permitted, but future edits
-private Color color;  // may leave it unaligned
+```private int   x;```      // permitted, but future edits
+```private Color color;```  // may leave it unaligned
 
 
