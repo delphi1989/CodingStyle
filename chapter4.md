@@ -27,7 +27,7 @@
 
 return new MyClass() {
 
-  @Override public void method() {
+    @Override public void method() {
   
     if (condition()) {
       try {
@@ -36,6 +36,7 @@ return new MyClass() {
         recover();
       }
     }
-  }
+    }
+
 };
 
