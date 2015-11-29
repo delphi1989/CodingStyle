@@ -25,18 +25,18 @@
 
 例如：
 
-return new MyClass() {
+    return new MyClass() {
 
-    @Override public void method() {
+      @Override public void method() {
   
-    if (condition()) {
-      try {
-        something();
-      } catch (ProblemException e) {
-        recover();
-      }
-    }
+        if (condition()) {
+          try {
+            something();
+          } catch (ProblemException e) {
+            recover();
+          }
+        }
     }
 
-};
+    };
 
