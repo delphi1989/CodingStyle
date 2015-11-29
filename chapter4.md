@@ -12,4 +12,4 @@
 
 >4.1.1 即使不是必要的大括號，仍應加上(Braces are used where optional)
 
-在
+在```if, else, for, do ```和 ```while``` 的使用時，
