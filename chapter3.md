@@ -5,7 +5,7 @@
 1. 著作權或版權資訊（有必要的話）
 2. Package敘述
 3. Import敘述
-4. 
+4. 一個頂層類別(```top-level class```)
 
 
 
