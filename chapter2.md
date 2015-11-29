@@ -46,10 +46,10 @@
 
 |```String unitAbbrev = "μs";```|**最佳**，最易理解、甚至無須加上註解|
 | -- | -- |
-| ```String unitAbbrev = "\u03bcs";``` // "μs" | **可接受** |
-| ```String unitAbbrev = "\u03bcs";``` // Greek letter mu, "s" | **可接受**，但可能出錯 |
+| ```String unitAbbrev = "\u03bcs";```  | **可接受** |
+| ```String unitAbbrev = "\u03bcs";``` // Greek letter mu, "s" | **可接受**，但容易出錯 |
 | ```String unitAbbrev = "\u03bcs";``` | **不佳**，讀者無法理解 |
-| 0:5 | 1:5 |
+| ```return '\ufeff' + content;``` // byte order mark | **良好**，使用跳脫符號表示不可印刷(不可見)的字元， |
 
 
 
