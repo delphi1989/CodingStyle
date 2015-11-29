@@ -135,7 +135,7 @@
 
   >A.用在聯結型別的```&```符號，例:```<T extends ClassA & ClassB>```
   
-  >B.用在聯結catch區塊內不同例外的```|```符號，例: catch (SQLException se | IOException ie)
+  >B.用在聯結catch區塊內不同例外的```|```符號，例: ```catch (SQLException se | IOException ie)```
   C.用在foreach區塊內的colon(:)符號，例foreach(String ele : new String[] {“1”,”2”} )
 
 
