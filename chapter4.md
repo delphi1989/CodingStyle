@@ -124,5 +124,4 @@
 ```if、for、catch```。
 1. 
 分隔同一行內，結束小括號```)```與緊跟其後的Java關鍵字，如
-）^else
-）^catch
+```else、catch```
