@@ -47,5 +47,6 @@ import敘述不進行***line-wrapper***，也就是不換行的意思。字元�
 4. ```java``` imports
 5. ```javax``` imports
 
-import群組內也依照ASCII的順序進行排列，而群組內不會有空白列，
+import群組內以原始碼檔案名稱依照ASCII的順序進行排列，且群組內不會有空白列。
+
 
