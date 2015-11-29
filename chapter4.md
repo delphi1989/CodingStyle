@@ -254,6 +254,6 @@
 
 >>4.8.4.3 必須有default標籤
 
-
+每個switch區塊都應有default敘述群組，即使switch區塊內沒有程式碼。
 
 
