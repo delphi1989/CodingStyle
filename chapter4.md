@@ -159,8 +159,9 @@
  // this is fine
 private int x;
 
- // this is fine
-private Color color; // this too
+ // this too
+
+private Color color; 
 
 private int   x;      // permitted, but future edits
 private Color color;  // may leave it unaligned
