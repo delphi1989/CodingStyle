@@ -76,7 +76,7 @@
 
 >4.5.1 在何處應該換行?
 
-比較理想的換行原則是根據高層次的語意層級進行判斷：
+比較理想的換行原則是根據高層次的語意進行判斷：
 
 1.當遇到非assignment的運算符號時，應在其前換行。如’+’號，若必須換行，則+號必須在下一行開始。（留意：這不適用於其他非Google Style 的語言，如JavaScipt 或 C++）
      此條件也適用於一些類似運算符號的其他符號，如點’.’、在Parameterized中的Ampersand符號’<T extends ClassA & ClassB>’、在catch括號內的pipe符號’catch（SQLException | IOException）'
