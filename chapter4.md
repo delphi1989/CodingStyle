@@ -139,6 +139,7 @@
   >```catch (SQLException se | IOException ie)```
   
   >C.用在foreach區塊內的```:```符號，例```foreach(String ele : new String[] {“1”,”2”} )```
+  
 
 
 
