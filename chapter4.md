@@ -133,7 +133,7 @@
 1. 
 在任何位元運算子及三元運算子的兩側，也同樣適用於下列的類運算符號，如
 
-  A.用在聯結型別的ampersand符號(&) ，例:<T extends ClassA & ClassB>
+  >A.用在聯結型別的ampersand符號(&) ，例:<T extends ClassA & ClassB>
   B.用在聯結catch區塊內不同例外的pipe(|)符號，例: catch (SQLException se | IOException ie)
   C.用在foreach區塊內的colon(:)符號，例foreach(String ele : new String[] {“1”,”2”} )
 
