@@ -156,6 +156,12 @@
 
 下面的範例描述原本沒有對齊的程式碼如何刻意的去對齊：
 
+ // this is fine
 
+private int x;
+private Color color; // this too
+
+private int   x;      // permitted, but future edits
+private Color color;  // may leave it unaligned
 
 
