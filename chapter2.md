@@ -26,9 +26,9 @@
 
 
 ---
->2.3.2 特殊跳脫符號(Special escape squences)
+>2.3.2 特殊跳脫序列(Special escape squences)
 
->asdad
+對那些有特殊跳脫序列表示的字元，如：**\b, \t, \n, \f, \r, \", \' and\ \\**
 
 
 
