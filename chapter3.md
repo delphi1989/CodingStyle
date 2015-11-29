@@ -43,7 +43,7 @@ import敘述不進行***line-wrapper***，也就是不換行的意思。字元�
 
 1. 所有的```static``` import
 2. com.google開頭的 import(只有當原始碼檔案在com.goolge的package內時)
-3. 所有第三方資源的import，例如：android, com, junit, org, sun按照ASCII 順序
+3. 所有第三方資源的import，例如：```android, com, junit, org, sun```按照ASCII 順序
 4. ```java``` imports
 5. ```javax``` imports
 
