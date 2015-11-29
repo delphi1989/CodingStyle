@@ -125,9 +125,9 @@
 1. 分隔同一行內，結束小括號```)```與緊跟其後的Java關鍵字，如
 ```else、catch```。
 1. 在任何起始大括號```(```前，但有兩個例外：
-     >A. annotation，如 ```@CucumberOptions({a,b})``` 
-     
-     >B. 初始化陣列時，如```String[][]={{“hahaha”},{“hehehe”}};```
+>A. annotation，如 ```@CucumberOptions({a,b})``` 
+
+ >B. 初始化陣列時，如```String[][]={{“hahaha”},{“hehehe”}};```
 
 1. 在任何位元運算子及三元運算子的兩側，也同樣適用於下列的類運算符號，如
 
