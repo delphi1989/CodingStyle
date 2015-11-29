@@ -157,6 +157,7 @@
 下面的範例描述原本沒有對齊的程式碼如何刻意的去對齊：
 
  // this is fine
+ 
 private int x;
 
  // this too
