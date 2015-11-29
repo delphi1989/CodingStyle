@@ -176,7 +176,7 @@
 
 >4.8.1 列舉類別( Enum classes)
 
-你可以在每個列舉常數的逗號後選擇性地換行。在一個沒有方法及說明文件，只有常數存在的列舉類別中，他可能被格式化成像是一個陣列的Initializer，如private enum Suit { Clubs, Hearts , Spades, Diamonds }。因為列舉也屬於一類別，因此也適用其他用來各式化類別的規則
+你可以在每個列舉常數的逗號後選擇性地換行。在一個沒有方法及說明文件，只有常數存在的列舉類別中，他可以使用像是陣列初始化的格式，如private enum Suit { Clubs, Hearts , Spades, Diamonds }。因為列舉也屬於一類別，因此也適用其他用來各式化類別的規則
 
 
 
