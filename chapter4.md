@@ -82,7 +82,7 @@
 此條件也適用於一些類似運算符號的其他符號，如： 
 
  * 
-點```.```、在型別限定Parameterized中的```&```符號(```<T extends ClassA & ClassB>```)、在catch括號內的pipe符號’catch（SQLException | IOException）'
+點```.```、在型別限定Parameterized中的```&```符號(```<T extends ClassA & ClassB>```)、在catch區塊的pipe符號’catch（SQLException | IOException）'
 
 
 2.當遇到assignment的運算符號時，應在其後換行，但在其前換行亦還可以接受。如’=‘號，應在等號後方換行。
