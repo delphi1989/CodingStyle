@@ -118,4 +118,4 @@
 
 >4.6.2 水平的空白(Horizontal whitespace)
 
-除了程式語言本身的要求或其他Style的規則，以及註解、Javadoc和英文字詞間的空白以外，ASCII space只應出現在以下幾種情況：
+除了程式語言本身的要求或其他編碼風格的規則，以及註解、Javadoc和英文字詞間的空白以外，ASCII space只應出現在以下幾種情況：
