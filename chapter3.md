@@ -63,6 +63,7 @@ import群組內以原始碼檔案名稱依照ASCII的順序進行排列，且群
 
 >>3.4.2.1 方法重載： 不要分割(Overloads: never split)
 
+有相同名稱宣告的constructor、method，不會被其他的類別成員分開。
 
 ---
 
