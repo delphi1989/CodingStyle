@@ -79,7 +79,7 @@
 比較理想的換行原則是根據高層次的語意進行判斷：
 
 1.當遇到非賦值(assign)的運算符號時，應在其前換行。如```+```號，若必須換行，則```+```號必須在下一行開始。（**留意**：這不適用於其他遵守Google Style 風格的語言，如JavaScipt 或 C++）
-此條件也適用於一些類似運算符號的其他符號，如點```.```、在Parameterized中的Ampersand符號’<T extends ClassA & ClassB>’、在catch括號內的pipe符號’catch（SQLException | IOException）'
+此條件也適用於一些類似運算符號的其他符號，如點```.```、在Parameterized中的Ampersand(```&```)符號’<T extends ClassA & ClassB>’、在catch括號內的pipe符號’catch（SQLException | IOException）'
 
 2.當遇到assignment的運算符號時，應在其後換行，但在其前換行亦還可以接受。如’=‘號，應在等號後方換行。
 此條件也適用於一些類似assignment符號的其他符號，如’foreach'
