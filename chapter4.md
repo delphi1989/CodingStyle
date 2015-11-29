@@ -24,3 +24,17 @@
 1. 若是結束大括號意味著一段程式敘述的終點，像是方法本體、建構子本體、Class本體，其後必須換行。相對的、像是else敘述或逗號後即可不換行。
 
 例如：
+
+return new MyClass() {
+
+  @Override public void method() {
+  
+    if (condition()) {
+      try {
+        something();
+      } catch (ProblemException e) {
+        recover();
+      }
+    }
+  }
+};
