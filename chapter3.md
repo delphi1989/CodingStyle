@@ -31,6 +31,9 @@ package敘述不進行***line-wrapper***，也就是不換行的意思。字元�
 
 >3.3.1 不使用通用符號import
 
-不使用通用符號(```*```)的import，static import 或其他
+不使用通用符號(```*```)或static import。
+
+>3.3.2 
+
 
 所有的import敘述會組合成不同的群組，群組間以空白行做為分隔。
