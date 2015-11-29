@@ -19,7 +19,7 @@
 
 ---
 
-#### **3.2 Package 敘述**
+#### **3.2 Package 敘述**（No wildcard imports）
 
 package敘述不進行***line-wrapper***，也就是不換行的意思。字元數限制不適用於package敘述。
 >line-wrapper：原本只會有一行的程式敘述，為了不超過字元數的限制而分隔成很多行。通常一行程式敘述應介於80 ~ 100個字元數間。
