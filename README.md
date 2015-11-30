@@ -10,6 +10,8 @@ Google Coding Style 簡短翻譯
 
 >參考資料二：http://blog.mosil.biz/2014/05/java-style-guide/#s1_introduction
 
+
+
 **章節**|**章節名稱**
 -|-
 一|簡介
