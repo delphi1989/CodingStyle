@@ -17,3 +17,4 @@ Javadoc區塊的基本格式化樣式如下：
 
 或是像這個單行格式化樣式的例子：
 
+    /** An especially short bit of Javadoc. */
