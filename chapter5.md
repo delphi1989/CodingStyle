@@ -57,7 +57,8 @@ test<要被測試的方法>_<狀態>，例如testPop_emptyStack。對於test方�
 
 >5.2.5 非常數屬性
 
-
+非常數的屬性名稱（如static或其他的）是以小寫駝峰式字型命名（LowerCamelCase）
+這些名稱通常都是名詞或名詞片語，例如： computerValue 或 index
 
 
 
