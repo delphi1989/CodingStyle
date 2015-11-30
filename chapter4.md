@@ -296,6 +296,16 @@
 
 類別及各種成員（如方法、屬性...）的存取修飾字呈現的順序，依JAVA語言的規範：
 
+    public 
+    protected 
+    private 
+    abstract 
+    static 
+    final 
+    transient 
+    volatile 
+    synchronized
+
 
 
 
