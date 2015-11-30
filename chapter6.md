@@ -26,6 +26,4 @@
     try {
       emptyStack.pop();
       fail();
-    } catch (NoSuchElementException expected) {
-    
-    }
+    } catch (NoSuchElementException expected) {}
