@@ -269,3 +269,5 @@
 但有**例外**：當只有一個Annotation，且該Annotation並沒有參數時，可能與方法簽章存在於同一行，像是：    
 
     @Override public int multiply() { ... }
+    
+    
