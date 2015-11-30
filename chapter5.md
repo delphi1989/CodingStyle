@@ -13,7 +13,7 @@
 >5.2.1 Package命名
 
 package的名稱皆由小寫字母構成，由不同的單字串接起來（不使用底線）。例如：```com.example.deepspace```是正確的，
-而不使用 com.example.deepSpace 或 com.example.deep_space
+而不使用 ```com.example.deepSpace``` 或 com.example.deep_space
 
 
 
