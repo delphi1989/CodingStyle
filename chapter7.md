@@ -48,4 +48,4 @@ Javadoc區塊的基本格式化樣式如下：
 
 Javadoc對那些簡易、顯而易懂的方法，像是：```getFoo()``` 而言，不是必要的，像是上面的方法，除了 ’Return the foo’ 外還有什麼值得用Javadoc敘述的？
 
-**留意**：引用上述例外做為實例，省略給讀者應知道的Javadoc是不當的。例如，當有個方法命名為：```getCanonicalName```時，不能省略它的說明（根據基礎原理，我們預計它的說明可能會是 ```/** Returns the canonical name. */```），因為可能有讀者不知道 ’canonical name ‘ 指的是什麼。
+**留意**：引用上述例外做為實例，省略應給讀者知道的Javadoc是不當的。例如，當有個方法命名為：```getCanonicalName```時，不能省略它的說明（根據基礎原理，我們預計它的說明可能會是 ```/** Returns the canonical name. */```），因為可能有讀者不知道 ’canonical name ‘ 指的是什麼。
