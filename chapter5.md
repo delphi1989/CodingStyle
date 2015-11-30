@@ -53,7 +53,7 @@ test<要被測試的方法>_<狀態>，例如testPop_emptyStack。對於test方�
     static final Logger logger = Logger.getLogger(MyClass.getName());
     static final String[] nonEmptyArray = {"these", "can", "change"};
 
-這些名稱通常是典型的名詞或名詞片語式命名
+這些名稱通常是以典型的名詞或名詞片語式命名
 
 
 
