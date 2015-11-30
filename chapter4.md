@@ -270,4 +270,4 @@
 
     @Override public int multiply() { ... }
     
-使用在屬性上的Annotation也會緊接著出現在文件區塊後，但這樣的狀況下，多個Annotation的宣告（可能有參數）可以列在同一行，列如：    
+使用在屬性上的Annotation也會緊接著出現在文件區塊後，但這樣的狀況下，多個Annotation的宣告（可能是型別限定）可以列在同一行，列如：    
