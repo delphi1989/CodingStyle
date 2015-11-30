@@ -99,13 +99,13 @@ test<要被測試的方法>_<狀態>，例如testPop_emptyStack。對於test方�
 
 **注意**：原本單字的字母大小寫可以說是完全忽視了，例如：
 
-    A.XML HTTP request   -> XmlHttpRequest  (O)  -> XMLHTTPREQUEST (X)
-    B.new  customer ID   -> newCustomerId (O) -> newCustomerID(X)
-    C.inner stopwatch   -> innerStopwatch (O) -> innerStopWatch(X)
-    D.supports IPv6 on iOS   -> supportsIpv6OnIos(O) -> supportsIPv6OnIOS(X)
-    E.YouTube Importer   -> YouTubeImporter(O) -> YoutubeImporter (O)*
+    XML HTTP request   -> XmlHttpRequest  (O)  -> XMLHTTPREQUEST (X)
+    new  customer ID   -> newCustomerId (O) -> newCustomerID(X)
+    inner stopwatch   -> innerStopwatch (O) -> innerStopWatch(X)
+    supports IPv6 on iOS   -> supportsIpv6OnIos(O) -> supportsIPv6OnIOS(X)
+    YouTube Importer   -> YouTubeImporter(O) -> YoutubeImporter (O)*
 
-*是可被接受的，但不建議這樣做
+***是可被接受的，但不建議這樣做**
 
 
 
