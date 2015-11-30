@@ -37,4 +37,4 @@
     aFoo.aStaticMethod(); // bad
     somethingThatYieldsAFoo().aStaticMethod(); // very bad
     
-#### **6.4 Finalize不要使用    
+#### **6.4 Finalize不要使用**    
