@@ -49,7 +49,7 @@ test<要被測試的方法>_<狀態>，例如testPop_emptyStack。對於test方�
     static String nonFinal = "non-final";
     final String nonStatic = "non-static";
     static final Set<String> mutableCollection = new HashSet<String>();
-    static final ImmutableSet<SomeMutableType> mutableElements = Immutable
+    static final ImmutableSet<SomeMutableType> mutableElements = ImmutableSet.of(mutable);
     static final Logger logger = Logger.getLogger(MyClass.getName());
     static final String[] nonEmptyArray = {"these", "can", "change"};
 
