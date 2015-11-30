@@ -22,7 +22,7 @@ package的名稱皆由小寫字母構成，由不同的單字串接起來（不�
 
 對Annotation型別而言，並沒有特定或是固有的規則去命名。
 
-測試類別以將要被測試的類別名稱作為開頭，而已’Test'單字作結，例如：HashTest、HashIntegrationTest
+測試類別以將要被測試的類別名稱作為開頭，而以**Test**單字作結，例如：HashTest、HashIntegrationTest
 
 
 
