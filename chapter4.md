@@ -272,3 +272,15 @@
     
 使用在屬性上的Annotation也會緊接著出現在文件區塊後，但這樣的狀況下，多個Annotation的宣告（可能是型別限定）可以列在同一行，列如：    
 
+    @Partial @Mock DataLoader loader;
+
+
+
+
+
+
+
+
+
+
+
