@@ -260,5 +260,6 @@
 
 >4.8.5 Annotation
 
+使用在方法、類別或建構子上的Annotation，會緊接著出現在文件區塊後。而每個Annotation像是清單一樣單獨佔據一行。而這樣的分行並非是因執行 line - wrapping，因此縮排的層級並未增加。例如：
 
 
