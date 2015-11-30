@@ -26,7 +26,11 @@ package的名稱皆由小寫字母構成，由不同的單字串接起來（不�
 
 >5.2.3 方法命名
 
+方法名稱以小寫駝峰式字型（LowerCamelCase）組成。
+方法的名稱通常是動詞或是動詞片語，例如：sendMessage 或 stop。
 
+底線可能會出現在Junit的Test方法中，用來分隔方法名稱的邏輯組合。典型的格式是：
+test<要被測試的方法>_<狀態>，例如testPop_emptyStack。對於test方法並沒有明確的定義如何命名。
 
 
 
