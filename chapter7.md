@@ -34,5 +34,5 @@ Javadoc區塊的基本格式化樣式如下：
 
 給每個類別或是成員的Javadoc會以簡短的總結片段做為開始。這段簡短的總結片段非常的重要，因為在某些情境下、像是類別及方法索引中，是唯一呈現出來的文本。
 
-This is a fragment -    fragment是名詞或動詞短語，不是完整的句子。他並非是以
+**This is a fragment** -    fragment是名詞或動詞短語，不是完整的句子。他並非是以
  A {@code Foo} is a … 或 This method returns … 做為敘述的開始，也不是以一個完整的祈使句敘述開始，如 Save the record 。這總結片段因首字大寫以及標點符號的影響而看起來像是個完整的句子。
