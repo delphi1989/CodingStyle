@@ -27,4 +27,4 @@ Javadoc區塊的基本格式化樣式如下：
 
 >7.1.3 @Javadoc標記
 
-任一被使用的Javadoc標記會依照```@param、@return、@throws、@decrepated```的順序呈現，而這四個標記呈現時不會有空敘述的情況發生。當標記敘述超過一行時，接下來的敘述應相對於@符號(at-clause)有4個或更多space的縮排。
+任一被使用的Javadoc標記會依照```@param、@return、@throws、@decrepated```的順序呈現，而這四個標記呈現時不會有空敘述的情況發生。當標記敘述超過一行時，接下來的敘述應相對於```@符號```(at-clause)有4個或更多space的縮排。
