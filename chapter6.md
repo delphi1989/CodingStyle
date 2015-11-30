@@ -39,5 +39,5 @@
     
 #### **6.4 Finalize不要使用**
 
-覆寫 Object 物件的 ```finalize```方法 是非常罕見。
+覆寫 Object 物件的 ```finalize```方法是非常罕見的。
 tip:別做這件事，若是你非覆寫不可時，請先仔細地閱讀 Effective JAVA Item 7 : “Avoid Finalizers “，然後還是別做這件事情。
