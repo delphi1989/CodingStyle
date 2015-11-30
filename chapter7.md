@@ -37,4 +37,4 @@ Javadoc區塊的基本格式化樣式如下：
 **This is a fragment** -    fragment是名詞或動詞短語，不是完整的句子。他並非是以
  **A {```@code Foo```} is a …** 或 **This method returns …** 做為敘述的開始，也不是以一個完整的祈使句敘述開始，如 **Save the record** 。總結片段因首字大寫以及標點符號的影響而看起來像是個完整的句子。
  
- **tip**：在敘述簡單的Javadoc時，常見的錯誤是以 /** @return the cutstomer ID */的形式撰寫，應該被改變為 /** Returns the customer ID. */
+ **tip**：在敘述簡單的Javadoc時，常見的錯誤是以 ```/** @return the cutstomer ID */```的形式撰寫，應該被改變為 /** Returns the customer ID. */
