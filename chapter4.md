@@ -274,7 +274,7 @@
 
     @Partial @Mock DataLoader loader;
 
-
+而針對使用在方法參數及區域變數上的Annotation並沒有特定的規則進行格式化。
 
 
 
