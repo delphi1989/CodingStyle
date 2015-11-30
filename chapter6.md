@@ -16,7 +16,7 @@
       int i = Integer.parseInt(response);
       return handleNumericResponse(i);
     } catch (NumberFormatException ok) {
-    // it's not numeric; that's fine, just continue
+      // it's not numeric; that's fine, just continue
 
     }
     return handleTextResponse(response);
