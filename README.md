@@ -6,7 +6,9 @@ Google Coding Style 簡短翻譯
 
 >原始文件：https://google.github.io/styleguide/javaguide.html
 
->參考資料：
+>參考資料一：http://oss-tw.blogspot.tw/2014/02/google-java.html
+
+>參考資料二
 
 **章節**|**章節名稱**
 -|-
