@@ -17,7 +17,12 @@ package的名稱皆由小寫字母構成，由不同的單字串接起來（不�
 
 >5.2.2 類別命名
 
+類別名稱以大寫駝峰式字型（UpperCamelCase）組成。
+類別名稱多半為單純的名詞或是名詞片語，例如：Character 或 ImmutableList。介面的命名方式亦相同（如List），但有時會以形容詞或形容詞片語代替（如：Readable）
 
+對Annotation型別而言，並沒有特定或是固有的規則去命名。
+
+測試類別以將要被測試的類別名稱作為開頭，而已’Test'單字作結，例如：HashTest、HashIntegrationTest
 
 
 
