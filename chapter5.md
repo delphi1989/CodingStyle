@@ -41,8 +41,8 @@ test<要被測試的方法>_<狀態>，例如testPop_emptyStack。對於test方�
     // Constants
     static final int NUMBER = 5;
     static final ImmutableList<String> NAMES = ImmutableList.of("Ed", "Ann);
-    static final Joiner COMMA_JOINER = Joiner.on(','); // because Joiner static final   
-    SomeMutableType[] EMPTY_ARRAY = {};
+    static final Joiner COMMA_JOINER = Joiner.on(','); // because Joiner 
+    static final SomeMutableType[] EMPTY_ARRAY = {};
     enum SomeEnum { ENUM_CONSTANT }
 
 // Not constants
