@@ -15,4 +15,5 @@ Javadoc區塊的基本格式化樣式如下：
      */
      public int method(String p1) { ... }
 
-或是
+或是像這個單行格式化樣式的例子：
+
