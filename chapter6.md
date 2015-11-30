@@ -37,4 +37,4 @@
     aFoo.aStaticMethod(); // bad
     somethingThatYieldsAFoo().aStaticMethod(); // very bad
     
-    
+#### **    
