@@ -28,4 +28,4 @@
       fail();
     } catch (NoSuchElementException expected) {}
     
-#### **6.3     
+#### **6.3 靜態類別成員： 使用類別名稱呼叫    
