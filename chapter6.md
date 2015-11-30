@@ -10,5 +10,14 @@
 
 除了待會兒提到情況之外，不對捕捉到的例外進行任何處理，只有在特別的情境下是正確的。（一般而言都是對該例外進行Log，但若是該例外被認為不可能發生時，重新將該錯誤封裝為 ```AssertionError``` 後拋出）
 
-當認為不對例外在 ```catch``` 區塊內進行任何處理是適當的行為時，應有註解針對這樣的決定進行合理的解釋：
+當認為不對例外在 ```catch``` 區塊內進行任何處理是適當的行為時，應有註解針對這樣的決定進行合理的解釋，例如： 
 
+    try {
+    int i = Integer.parseInt(response);
+    return handleNumericResponse(i);
+
+    } catch (NumberFormatException ok) {
+    // it's not numeric; that's fine, just continue
+
+    }
+    return handleTextResponse(response);
