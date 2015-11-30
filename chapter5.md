@@ -107,7 +107,7 @@ test<要被測試的方法>_<狀態>，例如testPop_emptyStack。對於test方�
 
 ***是可被接受的，但不建議這樣做**
 
-**留意**：
+**留意**：在英文中，有些單字因可利用連字號(-)使用而使它的字面形式具有模糊性，例如： ’nonempty’ 以及 ‘non-empty’ 都是正確的，因此方法的名稱如： ‘checkNonempty’ 和 ‘checkNonEmpty’同樣的也都是正確的。
 
 
 
