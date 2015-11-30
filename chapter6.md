@@ -32,3 +32,7 @@
 
 當要參考到某靜態的類別成員時，應利用類別本身的名稱做為指定名稱。物件參考、或是透過某表達式表達該類別的形式都不適合做為指定名稱，例如：
 
+Foo aFoo = ...;
+Foo.aStaticMethod(); // good
+aFoo.aStaticMethod(); // bad
+somethingThatYieldsAFoo().aStaticMethod(); // very bad
