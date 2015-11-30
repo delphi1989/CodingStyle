@@ -61,7 +61,8 @@ test<要被測試的方法>_<狀態>，例如testPop_emptyStack。對於test方�
 
 >5.2.6 參數命名
 
-
+參數名稱是以小寫駝峰式字型命名（LowerCamelCase）。
+應避免只有單一字元的參數名稱
 
 
 
