@@ -38,7 +38,18 @@ test<要被測試的方法>_<狀態>，例如testPop_emptyStack。對於test方�
 
 每個常數都是static final屬性，但不是每個static final屬性都是常數。在決定使用常數式命名前（全部使用大寫字母），應思考究竟該項屬性是否真的是個常數。例如，當一個實例（Instance）中可被存取的狀態（屬性）是可變的，幾乎可以確定該狀態不是個常數。若認為單純的不去改變物件即可，這樣的條件是不夠的。例如：
 
+// Constants
+static final int NUMBER = 5;
+static final ImmutableList<String> NAMES = ImmutableList.of("Ed", "Ann static final Joiner COMMA_JOINER = Joiner.on(','); // because Joiner static final SomeMutableType[] EMPTY_ARRAY = {};
+enum SomeEnum { ENUM_CONSTANT }
 
+// Not constants
+static String nonFinal = "non-final";
+final String nonStatic = "non-static";
+static final Set<String> mutableCollection = new HashSet<String>();
+static final ImmutableSet<SomeMutableType> mutableElements = Immutable
+static final Logger logger = Logger.getLogger(MyClass.getName());
+static final String[] nonEmptyArray = {"these", "can", "change"};
 
 
 
