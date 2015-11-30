@@ -266,5 +266,5 @@
     @Nullable
     public String getNameIfPresent() { ... }
     
-但有**例**外：當只有一個Annotation，且該Annotation並沒有參數時，可能與方法簽章存在於同一行，
+但有**例外**：當只有一個Annotation，且該Annotation並沒有參數時，可能與方法簽章存在於同一行，
 像是：    
