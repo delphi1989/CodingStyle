@@ -13,9 +13,8 @@
 當認為不對例外在 ```catch``` 區塊內進行任何處理是適當的行為時，應有註解針對這樣的決定進行合理的解釋，例如： 
 
     try {
-    int i = Integer.parseInt(response);
-    return handleNumericResponse(i);
-
+      int i = Integer.parseInt(response);
+      return handleNumericResponse(i);
     } catch (NumberFormatException ok) {
     // it's not numeric; that's fine, just continue
 
